@@ -1,0 +1,63 @@
+header{
+    display: flex;
+    justify-content:space-between;
+    background-color:white;
+}
+.nav {
+    color:white;
+    font-size: 50px;
+    margin-top: 15px;
+}
+/*augnenter la taille du texte*/
+header >h2{
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: rgb(15, 15, 15);
+}
+main{
+    margin-top: 50px;
+    justify-content: center;
+    background-color:rgb(245,245,245) ;
+}
+/*dimunition de la taille de l'image*/
+div img{
+    width: 170px;
+
+}
+.dr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: (4 250px);
+    background-color:white;
+    text-align: center;
+    width: 60%;
+    margin-left: 150px;
+
+    
+
+}
+.product{
+    border: solid 2px;
+     margin: 10px 0 0 0;
+     width: 170px;
+
+
+}
+.Prix{
+    display: flex;
+    justify-content: space-around;
+}
+.products h4{
+    color: rgb(83,88,73);
+}
+button{
+    background: transparent;
+    border: none;
+    color: grey;
+    outline: none;
+}
+footer{
+display: flex;
+justify-content: space-around;
+font-size: 30px;
+}

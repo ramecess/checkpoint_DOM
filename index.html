@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/4767a56edf.js" crossorigin="anonymous"></script>
+    <title>document</title>
+</head>
+
+<body>
+    <header>
+        <h2>Fresh Ramcess</h2>
+        <div class="nav"><button> <i class="fa-solid fa-cart-shopping"></i> Ajouter au panier</button></div>
+    </header>
+    <main>
+        <section class="dr">
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle1()" id="btn1"> <i class="fa-solid fa-heart"></i></button>
+                       <button><i class="fa-regular fa-trash-can"></i></button> 
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/celery-3771.jpg" alt="">
+                    <h4>Celery</h4>
+                    <div class="Prix">
+                        <span>1Head</span>
+                        <span style="margin-left: 75px;">100</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle2()" id="btn2"> <i class="fa-solid fa-heart"></i></button>
+                        <button><i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/Green_Beans_1_lb_Desktop_20230322095058.jpg"
+                        alt="">
+                    <h4>Haricot</h4>
+                    <div class="Prix">
+                        <span>1Kg</span>
+                        <span style="margin-left: 75px;">500</span>
+                        <span>XOF</span>
+
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle3()" id="btn3"> <i class="fa-solid fa-heart"></i></button>
+                        <button><i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/4_Desktop_20230808110157.jpg"
+                        alt="">
+                    <h4>Spaghetti Squash</h4>
+                    <div class="Prix">
+                        <span>1count</span>
+                        <span style="margin-left: 75px;">100</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle4()" id="btn4"> <i class="fa-solid fa-heart"></i></button>
+                        <button><i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/1_Desktop_20230808110039.jpg"
+                        alt="carrots">
+                    <h4>carottes</h4>
+                    <div class="Prix">
+                        <span>1Kg</span>
+                        <span style="margin-left: 75px;">1000</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle5()" id="btn5"> <i class="fa-solid fa-heart"></i></button>
+                        <button><i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/sweet-potatoes-4635.jpg" alt="">
+                    <h4>patates douces</h4>
+                    <div class="Prix">
+                        <span>1Kg</span>
+                        <span style="margin-left: 75px;">700</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle6()" id="btn6"> <i class="fa-solid fa-heart"></i></button>
+                        <button> <i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/yellow-onion-5857.jpg" alt="">
+                    <h4>oignons jaunes</h4>
+                    <div class="Prix">
+                        <span>1Kg</span>
+                        <span style="margin-left: 75px;">1000</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle7()" id="btn7"> <i class="fa-solid fa-heart"></i></button>
+                        <button> <i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/3lb-red-potatoes_Desktop_20221103062807.jpg"
+                        alt="">
+                    <h4>Red potatoes</h4>
+                    <div class="Prix">
+                        <span>1 kg</span>
+                        <span style="margin-left: 75px;">600</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle8()" id="btn8"> <i class="fa-solid fa-heart"></i></button>
+                        <button> <i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/green-bell-pepper-1521.jpg"
+                        alt="">
+                    <h4>poivrons verts</h4>
+                    <div class="Prix">
+                        <span>1Kg</span>
+                        <span style="margin-left: 75px;">600</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle9()" id="btn9"> <i class="fa-solid fa-heart"></i></button>
+                        <button> <i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/Hatch_Chili_Peppers_Quarter_Pound_Desktop_20230815163842.jpg"
+                        alt="">
+                    <h4>Piments verts Hatch</h4>
+                    <div class="Prix">
+                        <span>1Kg</span>
+                        <span style="margin-left: 75px;">400</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle10()" id="btn10"> <i class="fa-solid fa-heart"></i></button>
+                        <button>  <i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/Cherry-Tomatoes_Desktop_20230627100006.jpg"
+                        alt="">
+                    <h4>Cherry Tomatoes</h4>
+                    <div class="Prix">
+                        <span>0.5Kg</span>
+                        <span style="margin-left: 75px;">300</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle11()" id="btn11"> <i class="fa-solid fa-heart"></i></button>
+                        <button>  <i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/Pink_Eyed_Peas_Desktop_20230815163930.jpg"
+                        alt="">
+                    <h4>Fresh Pink Eyed Peas</h4>
+                    <div class="Prix">
+                        <span>1Kg</span>
+                        <span style="margin-left: 75px;">500</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle12()" id="btn12"> <i class="fa-solid fa-heart"></i></button>
+                        <button> <i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/beefsteak-tomatoes-5661.jpg"
+                        alt="">
+                    <h4>Beefsteak-Tomatoes</h4>
+                    <div class="Prix">
+                        <span>1count</span>
+                        <span style="margin-left: 75px;">75</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle13()" id="btn13"> <i class="fa-solid fa-heart"></i></button>
+                        <button> <i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/Okra_Desktop_20230725154255.jpg"
+                        alt="">
+                    <h4>Heirloom Okra</h4>
+                    <div class="Prix">
+                        <span>0.5Kg</span>
+                        <span style="margin-left: 75px;">200</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle14()" id="btn14"> <i class="fa-solid fa-heart"></i></button>
+                        <button>  <i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/1_Cucumber_Desktop_20221214120252.jpg"
+                        alt="">
+                    <h4>Cucumber</h4>
+                    <div class="Prix">
+                        <span>1Kg</span>
+                        <span style="margin-left: 75px;">900</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="Prix"><button onclick="toggle15()" id="btn15"> <i
+                                class="fa-solid fa-heart"></i></button>
+                                <button>  <i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/Delicata_Squash_1_Desktop_20230111100149.jpg"
+                        alt="">
+                    <h4>Delicata Squast</h4>
+                    <div class="Prix">
+                        <span>1Kg</span>
+                        <span style="margin-left: 75px;">400</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <div class="Prix">
+                        <button onclick="toggle16()" id="btn16"> <i class="fa-solid fa-heart"></i></button>
+                       <button> <i class="fa-regular fa-trash-can"></i></button>
+                    </div>
+                    <img src="https://cdn.freshharvest.com/Home/Images/Items/_formatted/8_Desktop_20230808110352.jpg"
+                        alt="">
+                    <h4>Garlic</h4>
+                    <div class="Prix">
+                        <span>1count</span>
+                        <span style="margin-left: 75px;">50</span>
+                        <span>XOF</span>
+                    </div>
+                    <div>
+                        <span>0</span>
+                        <span>XOF</span>
+                    </div>
+                    <div class="boutons">
+                        <button>-</button>
+                        <span>0</span>
+                        <button>+</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <span>Telephone:779515305</span>
+        <span>gayearame93@gmail.com</span>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
